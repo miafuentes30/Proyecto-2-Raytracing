@@ -1,0 +1,17 @@
+[package]
+name = "project"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev]
+opt-level = 3
+debug = false
+
+[profile.release]
+opt-level = 3
+lto = true
+
+[dependencies]
+raylib = { version = "5.5.1", default-features = false }
+rayon = "1.8"
+image = "0.24"
