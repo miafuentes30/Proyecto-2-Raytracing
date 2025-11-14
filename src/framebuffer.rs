@@ -1,4 +1,3 @@
-//framebuffer.rs - de las clases de dennis, no se implementa en este proyect
 use raylib::prelude::*;
 
 pub struct Framebuffer {
